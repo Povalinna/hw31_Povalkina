@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button class="btn" id="but" onclick="allOrders()">Add</button>
+    <button class="btn" id="but1">save</button>
+
+    <form name="myForm" action="" id="myForm" autocomplete="on">
+        <p>Анкета користувача</p>
+        <p> Введіть ваше ім'я</p>
+        <p><input type="text" name="name" id="name" value="" /></p>
+        <p> Введіть логін</p>
+        <p><input type="text" name="login" id="login" value="" min="4" max="10" /></p>
+        <p> Введіть пароль (не меньше 8 знаків,не більше 10)</p>
+        <p><input type="password" name="passw" id="passw" value="" autocomplete="current-password" /></p>
+        <p> Повторіть пароль(тільки букви та цифри)</p>
+        <p><input type="password" name="passw" id="passw1" value="" autocomplete="current-password" /></p>
+        <p> Введіть електонну адресу</p>
+        <p><input type="email" name="email" id="email" value="" autocomplete="email" /></p>
+        <p> Введіть ваш вік</p>
+        <p><input type="number" name="age" id="age" value="" /></p>
+        <p> Введіть номер телефона</p>
+        <p><input type="tel" name="phonnumber" id="phonnumber" value="" /></p>
+        <p> Введіть номер кредитної картки</p>
+        <p><input type="text" name="cardnumber" id="cardnumber" value="" /></p>
+
+        <button class="button" id="button" type="button" value="save">відправити</button>
+        </p>
+    </form>
+    <div class="recordS"></div>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
